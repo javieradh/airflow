@@ -31,7 +31,7 @@ airflow db init
 
 ### 5. Create Admin User
 
-Create an admin user with the following command:
+Create an admin user with the following command: (needed to access the Airflow UI, choose anything you want but ensure role = Admin)
 
 ```bash
 airflow users create \
@@ -59,6 +59,3 @@ airflow webserver --port 8080
 airflow scheduler
 ```
 
-```bash
-airflow scheduler
-```
