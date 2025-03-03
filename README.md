@@ -59,3 +59,6 @@ airflow webserver --port 8080
 airflow scheduler
 ```
 
+Once the webserver is running, you can navigate to the UI by going to:
+
+http://localhost:8080
