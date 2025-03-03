@@ -63,3 +63,21 @@ airflow scheduler
 Once the webserver is running, you can navigate to the UI by going to:
 
 http://localhost:8080
+
+# Learning Day - Ideas on what to try out!
+
+
+1. **Multiple Tasks & Dependencies**  
+   Create a DAG with a few tasks and set some simple dependencies between them.
+
+2. **XCom**  
+   Pass data between tasks using XCom to see how tasks can communicate with each other.
+
+3. **Task Retry Logic**  
+   Add retry logic to a task that might fail, and set up some retry delay just in case.
+
+4. **Schedule a DAG**  
+   Make a DAG run automatically on a schedule (like daily) using cron expressions or preset schedules like `@daily`.
+
+5. **Branching**  
+   Use the `BranchPythonOperator` to split tasks into different paths depending on conditions.
